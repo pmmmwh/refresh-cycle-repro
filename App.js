@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import DashboardPage from './routes';
 
-const HeroApp = (props) => {
+const HeroApp = () => {
   return <>Hello. {DashboardPage ? <DashboardPage /> : null}</>;
 };
 

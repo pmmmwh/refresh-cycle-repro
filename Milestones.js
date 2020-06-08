@@ -1,8 +1,7 @@
-import React from 'react';
-
+import * as React from 'react';
 import { fragment } from './DashboardPage';
 
-const Milestones = props => {
+const Milestones = () => {
   return <span />;
   fragment;
 };

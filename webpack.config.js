@@ -1,7 +1,7 @@
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
 module.exports = {
-  entry: {index: __dirname + '/index.js'},
+  entry: { index: __dirname + '/index.js' },
   module: {
     rules: [
       {
@@ -20,7 +20,7 @@ module.exports = {
     ],
   },
   plugins: [
-    new ReactRefreshWebpackPlugin({disableRefreshCheck: true}),
+    new ReactRefreshWebpackPlugin(),
   ],
   devServer: {
     port: 7002,

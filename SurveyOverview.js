@@ -1,5 +1,5 @@
-const SurveyOverview = () => {
+const surveyOverview = () => {
   return 100;
 };
 
-export default SurveyOverview;
+export default surveyOverview;
