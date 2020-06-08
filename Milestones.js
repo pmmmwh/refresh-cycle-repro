@@ -7,3 +7,7 @@ const Milestones = () => {
 };
 
 export default Milestones;
+
+if (module.hot) {
+  module.hot.accept();
+}

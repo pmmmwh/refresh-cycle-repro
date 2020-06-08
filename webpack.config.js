@@ -12,16 +12,12 @@ module.exports = {
             loader: 'babel-loader',
             options: {
               presets: ['@babel/preset-react'],
-              plugins: ['react-refresh/babel'],
             },
           },
         ],
       },
     ],
   },
-  plugins: [
-    new ReactRefreshWebpackPlugin(),
-  ],
   devServer: {
     port: 7002,
   },

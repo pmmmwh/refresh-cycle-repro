@@ -1,5 +1,4 @@
 import * as React from 'react';
-
 import Milestones from './Milestones';
 import SurveyOverview from './SurveyOverview';
 import NudgeOverview from './NudgeOverview';

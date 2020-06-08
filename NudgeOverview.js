@@ -7,3 +7,7 @@ const NudgeOverview = () => {
 };
 
 export default NudgeOverview;
+
+if (module.hot) {
+  module.hot.accept();
+}
